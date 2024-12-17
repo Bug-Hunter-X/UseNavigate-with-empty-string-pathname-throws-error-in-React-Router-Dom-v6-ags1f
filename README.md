@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in React Router Dom v6's useNavigate hook. When called with an object containing an empty string pathname, it throws an error, even though omitting the pathname entirely correctly navigates to the root.  The bug.jsx file showcases the problematic behavior. The bugSolution.jsx file provides a workaround.
